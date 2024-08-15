@@ -36,13 +36,14 @@ body {
     text-align: center;
     font-size: 20px;
 }
-@media (max-width: 767) {
+@media (max-width: 767px) {
     .special-heading {
-        font-size: 45px;
+        font-size: 75px;
     }
 
     .special-heading+p {
         margin-top: -20px;
+        font-size: 17px;
     }
 }
 .parent {
@@ -188,7 +189,7 @@ body {
     display: flex;
     margin-bottom: 30px;
 }
-@media (max-width: 767) {
+@media (max-width: 767px) {
     .services .services-content .srv {
         flex-direction: column;
         text-align: center;
@@ -262,11 +263,7 @@ body {
     padding-bottom: var(--section-padding);
     background-color: var(--section-backgraund);
 }
-@media (max-width:771px) {
-    .protofolio .special-heading{
-        font-size: 80px;
-    }
-}
+
 .protofolio .protofolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
