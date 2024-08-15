@@ -38,7 +38,7 @@ body {
 }
 @media (max-width: 767) {
     .special-heading {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .special-heading+p {
@@ -305,6 +305,7 @@ body {
     .about .about-content {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
 }
 .about .about-content .image {
@@ -356,13 +357,13 @@ body {
 }
 @media (max-width: 767px){
     .about .about-content .text{
-        padding-left: 30px;
+        padding-left: 20px;
     }
 }
 @media (max-width: 991px) {
     .about .about-content .text {
         margin-top: 30px;
-        padding-right: 150px;
+        padding-right: 100px;
     }
 }
 .about .about-content .text p:first-of-type {
